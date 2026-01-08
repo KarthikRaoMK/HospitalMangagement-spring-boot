@@ -3,6 +3,7 @@ package com.example.hospitalmangement.service;
 
 import com.example.hospitalmangement.entity.Patient;
 import com.example.hospitalmangement.repository.Patientrepository;
+import java.util.List;
 
 public class PatientService {
     private final Patientrepository repository;
