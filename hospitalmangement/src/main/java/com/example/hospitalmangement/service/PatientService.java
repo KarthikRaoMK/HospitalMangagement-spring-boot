@@ -3,8 +3,10 @@ package com.example.hospitalmangement.service;
 
 import com.example.hospitalmangement.entity.Patient;
 import com.example.hospitalmangement.repository.Patientrepository;
-import java.util.List;
+import org.springframework.stereotype.Service;
 
+import java.util.List;
+@Service
 public class PatientService {
     private final Patientrepository repository;
 
