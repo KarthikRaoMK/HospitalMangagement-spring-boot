@@ -1,7 +1,7 @@
-package com.example.hospitalmanagement.controller;
+package com.example.hospitalmangement.Controller;
 
-import com.example.hospitalmanagement.Patient;
-import com.example.hospitalmanagement.service.PatientService;
+import com.example.hospitalmangement.entity.Patient;
+import com.example.hospitalmangement.service.PatientService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
