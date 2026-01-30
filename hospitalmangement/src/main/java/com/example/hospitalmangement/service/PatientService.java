@@ -13,7 +13,7 @@ public class PatientService {
     public PatientService(Patientrepository repository) {
         this.repository = repository;
     }
-    //CREAT
+    //CREATE
     public Patient savePatient(Patient patient){
         return repository.save(patient);
     }
